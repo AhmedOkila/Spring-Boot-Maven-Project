@@ -9,7 +9,7 @@ pipeline {
     NEXUS_PROTOCOL = "http"
     NEXUS_URL = "localhost:8081"
     NEXUS_REPOSITORY = "SpringBootMavenApp"
-    NEXUS_CREDENTIAL_ID = credentials("Nexus")
+    NEXUS_CREDENTIAL_ID = "Nexus"
     ARTIFACT_VERSION = "${BUILD_NUMBER}"
   }
   stages {
