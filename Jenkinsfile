@@ -7,8 +7,8 @@ pipeline {
   environment {
     NEXUS_VERSION = "nexus3"
     NEXUS_PROTOCOL = "http"
-    NEXUS_URL = "localhost:8081"
-    NEXUS_REPOSITORY = "maven-releases"
+    NEXUS_URL = "172.17.0.2:8081"
+    NEXUS_REPOSITORY = "SpringBootMavenApp"
     NEXUS_CREDENTIAL_ID = "Nexus"
     ARTIFACT_VERSION = "${BUILD_NUMBER}"
   }
