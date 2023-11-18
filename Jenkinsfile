@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage("Clone the Repo") {
       steps {
-        git branch: "nexusArtifactUploader",
+        git branch: "settings.xml",
           url: "https://github.com/AhmedOkila/Spring-Boot-Maven-Project.git",
           credentialsId: "Github"
       }
